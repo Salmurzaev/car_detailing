@@ -33,7 +33,7 @@ const Home = () => {
             esse dolor voluptate.
           </motion.p>
 
-          <div className='flex justify-center xl:hidden relative'>
+          <div className='z-10 flex justify-center xl:hidden relative'>
             <ProjectsBtn />
           </div>
           <motion.div

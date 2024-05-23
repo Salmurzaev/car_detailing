@@ -1,10 +1,8 @@
 import Link from 'next/link'
 import {
-  RiYoutubeLine,
   RiInstagramLine,
   RiFacebookLine,
-  RiDribbbleLine,
-  RiPinterestLine,
+  RiWhatsappLine,
   RiPhoneLine
 } from 'react-icons/ri'
 
@@ -15,7 +13,7 @@ const Socials = () => {
         href='https://wa.me/+18723461584'
         className='hover:text-accent transition-all duration-300'
         target='_blank'>
-        <RiYoutubeLine />
+        <RiFacebookLine />
       </Link>
       <Link
         href='https://wa.me/+18723461584'
@@ -27,12 +25,12 @@ const Socials = () => {
         href='https://wa.me/+18723461584'
         className='hover:text-accent transition-all duration-300'
         target='_blank'>
-        <RiFacebookLine />
+        <RiWhatsappLine />
       </Link>
       <Link
         href='tel: +1 (872) 346-15-84'
         className='hover:text-accent transition-all duration-300 '>
-        +1 (872) 346-15-84
+        <RiPhoneLine />
       </Link>
     </div>
   )

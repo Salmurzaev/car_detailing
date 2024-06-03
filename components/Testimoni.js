@@ -25,7 +25,7 @@ const Testimoni = ({
       country: "Poland",
       rating: "4.5",
       testimoni:
-        "Fugiat ea adipisicing tempor adipisicing id.",
+        "Dolore id consequat excepteur ut pariatur tempor quis mollit laborum qui eiusmod do sint tempor..",
     },
     {
       name: "iezh Robert",
